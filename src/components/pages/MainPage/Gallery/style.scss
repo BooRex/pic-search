@@ -1,0 +1,26 @@
+.gallery {
+  background: #0080ff;
+}
+
+.gallery-grid {
+  display: inline-block;
+  text-align: center;
+}
+
+.no-results {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 100px);
+
+  .img {
+    height: 50px;
+  }
+  .text {
+    line-height: 50px;
+    color: white;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+    margin-left: 10px;
+  }
+}

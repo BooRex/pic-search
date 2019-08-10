@@ -1,0 +1,12 @@
+.search-box {
+  transition: all 1.5s;
+  background: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+
+  &--first {
+    height: 100vh;
+  }
+}
